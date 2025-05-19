@@ -32,7 +32,7 @@ export default function Header() {
   };
 
   return (
-    <header className="bg-primary text-white shadow px-6 py-4 flex justify-between items-center">
+    <header className="h-16 bg-primary text-white shadow px-6 py-4 flex justify-between items-center">
       <h1 className="text-xl font-bold">Chat AI</h1>
 
       {isAuthenticated ? (
